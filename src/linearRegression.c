@@ -33,6 +33,7 @@ double errFunction(double theta0, double theta1)
 	return error;
 }
 
+//the two sum terms required for the gradient descent algorithm
 double sum0(double theta0, double theta1)
 {
 	double sum0 = 0;
@@ -54,11 +55,14 @@ double sum1(double theta0, double theta1)
 }
 
 //notice how the term (theta0 + theta1 * data[i][0] - data[i][1]) 
-//i.e. the deviation is repeated multiple times
+//i.e. the deviation is repeated multiple times, implying further 
+//optimization by creation of a lookup table storing the deviations 
 
 void train(double *theta0, double *theta1)
 {
 	double error = 10, temp0, temp1;
+
+	//gradient descent is done here
 	do
 	{
 		temp0 = *theta0 - alpha*(1.f/numberOfDataPoints)*sum0(*theta0, *theta1);
@@ -80,5 +84,6 @@ int main()
 	
 	train(&theta0, &theta1);
 	printf("\nFinal linear equation is\ny = %fx + %f\n\n", theta1, theta0);
+
 	return 0;
 }
