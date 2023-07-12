@@ -4,5 +4,5 @@ Repository for the "Machine Learning with C" workshop organized by TENSOR.
 # Compilation:
 Open the Makefile and go to the SRC section and write the path of the desired machine learning algorithm.
 
-Algorithms covered:
+Algorithms covered:\n
 Linear Regression

@@ -79,7 +79,8 @@ void train(double *theta0, double *theta1)
 
 int main()
 {
-	double theta0 = 0, theta1 = 0; // at the end of the day, we only care about these two
+	double theta0 = 0, theta1 = 0; 
+	// at the end of the day, we only care about these two
 	//these two along with the equation are our "Machine Learning Model"
 	
 	train(&theta0, &theta1);
