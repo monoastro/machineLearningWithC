@@ -74,7 +74,7 @@ void train(double *theta0, double *theta1)
 		error = errFunction(*theta0, *theta1);
 		printf("%.6f\n", error);
 
-	} while (error > 0.001f);//double edged sword
+	} while (error > 0.0001f);//double edged sword
 }
 
 int main()
