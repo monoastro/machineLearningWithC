@@ -1,0 +1,3 @@
+gcc
+%h %c 
+-Iinclude
