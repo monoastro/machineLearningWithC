@@ -2,7 +2,7 @@ CXX		:= gcc
 CXX_FLAGS 	:= -Wall -Wextra -std=c99 -ggdb
 
 BIN		:= bin
-SRC		:= src/linearRegression.c
+SRC		:= src/logisticRegression.c
 INCLUDE	:= include
 LIB		:= lib
 
