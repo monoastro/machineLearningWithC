@@ -33,6 +33,7 @@ double errFunction(double theta0, double theta1)
 	return error;
 }
 
+//replace these with a compute cost function
 //the two sum terms required for the gradient descent algorithm
 double sum0(double theta0, double theta1)
 {
