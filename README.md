@@ -2,7 +2,8 @@
 Repository for the "Machine Learning with C" workshop organized by TENSOR.
 
 # Compilation:
-Open the Makefile and go to the SRC section and write the path of the desired machine learning algorithm.
+1. Open the Makefile and go to SRC and write the path of the desired machine learning algorithm.
+2. Run the command 'make' in the base directory of the project.
 
 Algorithms covered:  
 Linear Regression  
